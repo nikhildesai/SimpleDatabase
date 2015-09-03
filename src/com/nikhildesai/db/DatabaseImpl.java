@@ -5,8 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * Simple implementation for storing Integer types. Following operations are
- * supported: <br>
+ * Following operations are supported: <br>
  * <br>
  * set(name, value): set a value<br>
  * get(name): get a value<br>
