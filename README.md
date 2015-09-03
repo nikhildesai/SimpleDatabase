@@ -65,9 +65,13 @@ Note: The test/ folder contains a few files containing test input
 3) The object dependencies are roughly as follows:
 
 SimpleDatabase -> DatabaseController
+
 DatabaseController -> DatabaseManager
+
 DatabaseManager -> Database, TransactionManager
+
 TransactionManager -> Transaction
+
 Transaction -> Database
 
 4) DatabaseImpl uses a TreeMap implementation for storing the data as it's operations are O(logN) where N is the number of entries in the database. It also uses a HashMap to store 'numEqualTo' values in order to achieve O(1)
