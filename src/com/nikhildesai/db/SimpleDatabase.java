@@ -46,16 +46,7 @@ public class SimpleDatabase {
                 controller.executeCommand(nextLine);
             }
         } else {
-            System.out.println("Invalid command.");
-            System.out.println("Usage:");
-            System.out.println("SET <name> <value>");
-            System.out.println("GET <name>");
-            System.out.println("UNSET <name>");
-            System.out.println("NUMEQUALTO <value>");
-            System.out.println("END");
-            System.out.println("BEGIN");
-            System.out.println("ROLLBACK");
-            System.out.println("COMMIT");
+            System.out.println("Invalid number of arguments.");
         }
 
         System.out.println("Good bye!");
