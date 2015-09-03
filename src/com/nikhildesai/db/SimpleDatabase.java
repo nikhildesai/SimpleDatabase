@@ -31,6 +31,7 @@ public class SimpleDatabase {
                 br = new BufferedReader(new FileReader(new File(args[0])));
             } catch (FileNotFoundException e) {
                 System.out.println("File not found! Exiting!");
+		System.exit(1);
             }
 
             String line = null;
