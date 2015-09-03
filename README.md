@@ -37,7 +37,7 @@ cd SimpleDatabase
 
 mkdir target
 
-javac src/com/nikhildesai/db*.java -d target
+javac src/com/nikhildesai/db/*.java -d target
 
 
 # Run in console mode
