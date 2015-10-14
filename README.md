@@ -1,4 +1,4 @@
-# SimpleDatabase
+# SimpleDatabase: 
 Simple in-memory database implemented using Java. It has a command line interface and can also accept input via a text file containing a series of commands (one command per line).
 
 Supported commands:
